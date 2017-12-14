@@ -816,8 +816,40 @@ color: #666;
 
 
 .contacts{
-height: 550px;
+//height: 500px;
 }
+.contacts_a {
+    position: absolute;
+    background-color: rgba(255,255,255,.8);
+    z-index: 10;
+    width: 370px;
+    margin-top: 10px;
+}
+
+.contacts_a h2{
+    font-size: 36px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #666;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 15px;
+
+    }
+.contacts ul li img {
+	width: 62%;
+}
+
+.contacts ul {
+	padding: 15px;
+	text-align: center;
+}
+
+.contacts ul li p{
+text-align: center;
+
+}
+
 .contacts_text {
  // margin-top: 10%;
   position: relative;
