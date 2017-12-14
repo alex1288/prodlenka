@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+
+User-agent: Yandex
+Disallow:
+Host: ngstroy69.ru/
+Sitemap:  ngstroy69.ru/sitemap.xml
