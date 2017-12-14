@@ -1093,6 +1093,25 @@ h3.city-name {
   text-align: left;
 }
 
+
+.text-testimonial:before {
+content: "\f10d";
+    position: absolute;
+    font-size: 65px;
+    color: #66666696;
+    left: -55px;
+    top: 41px;
+    font-family: FontAwesome;
+}
+.text-testimonial:after {
+content: "\f10e";
+    position: absolute;
+    font-size: 65px;
+    color: #66666696;
+        right: 0px;
+    bottom: 11px;
+    font-family: FontAwesome;
+}
 .block-items {
   cursor: default;
 }
