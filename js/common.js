@@ -164,8 +164,8 @@ $(document).ready(function() {
 		items: 1,
 		//margin:130,
 		//autoplay:true,
-	    autoplayTimeout:6000,
-	    autoplayHoverPause:true,
+	    // autoplayTimeout:6000,
+	    // autoplayHoverPause:true,
 		//stagePadding: 30,
 		dots: true,
 		nav: true,
@@ -177,11 +177,13 @@ $(document).ready(function() {
 	      dots: true,
 	      margin:30,
 	      stagePadding: 30,
+	     
 	    },
 	    // > 768
 	    768 : {
 	    	margin:100,
 	    	stagePadding: 100,
+	    
         dots: true,
 	    }
 		}
@@ -194,7 +196,7 @@ $(document).ready(function() {
 	    autoplayHoverPause:true,
         animateOut: 'fadeOut',
         dots: true,
-        nav: false,
+        nav: true
 
     });
 
