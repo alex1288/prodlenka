@@ -1203,6 +1203,207 @@ text-align: left;
   font-size: 30px
 }
 
+/*всплывающая форма обратной связи начало*/
+.mfp-close{
+  color: #FFF;
+}
+.mfp-content h2{
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+
+.mfp-content p{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.mfp-content img{
+  text-align: center;
+  margin-top: 10px;
+}
+
+.button_form{
+  height: 40px;
+  width: 76%;
+  margin: 5px 12%;
+}
+
+.mfp-content form {
+  /*padding: 15px 40px 15px 40px;*/
+  padding: 44px 65px;
+  background-color: #f7f7f7;
+  max-width: 600px;
+  margin: auto;
+  position: relative;
+  color: #222222;
+  border-radius: 5px;
+  text-align: center;
+}
+.mfp-content form h2 {
+  font-size: 27px;
+      margin-bottom: 0px;
+}
+
+.mfp-content form input{
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 21px;
+  text-align: center;
+  height: 40px;
+  color: #000;
+  line-height: 36px;
+
+}
+
+.mfp-content form textarea{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.mfp-content form p{
+  margin:10px 0px;
+
+}
+
+
+.pop_form input[type="text"] {
+  display: block;
+  line-height: 24px;
+  margin: 0 auto 12px;
+  width: 90%;
+  border: #999 1px solid;
+}
+.pop_form .button {
+  margin: 20px auto 0;
+}
+.pop_form h3 {
+  margin: 10px auto 15px;
+  text-align: center;
+  font-weight: normal;
+  font-family: "RobotoCondensedBold";
+  text-transform: uppercase;
+}
+
+
+
+input {
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+  height: 50px;
+  line-height: 75px;
+  text-align: center;
+  background: #f9f9f9;
+  color: #999;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  outline: none;
+  border-bottom: 1px solid #bebebe;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+
+input:focus {
+  //border-bottom: 2px solid #6bace1;
+  border-bottom: 2px solid #e1b52a;
+
+
+}
+.but_order{
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  cursor: pointer;
+  height: 53px;
+  width: 70%;
+  max-width: 550px;
+  margin: auto; 
+  font-size: 21px;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: #371400;
+  font-weight: 300;
+  border: none;
+/*  border-bottom: 3px solid #D0730C;*/
+/*  border-radius: 10px;*/
+  outline: none;
+  box-sizing: border-box;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8c335', endColorstr='#fdaa38',GradientType=0 );
+  position: relative;
+  overflow: hidden;
+     
+    background: rgba(0, 0, 0, 0.06);
+    box-shadow: none;
+    font-size: 27px;
+    background: rgba(225, 181, 42, 0.74);
+}
+button.but_order:active {
+  top: 2px;
+  box-shadow: none;
+}
+button.but_order:hover {
+  background-position: -200% 0, 0 0;
+  background: rgba(225, 181, 42, 0.94);
+}
+
+/*всплывающая форма обратной связи end*/
+
+/*всплывающая страница с подробностями */
+
+.popap_page {
+  background-color: #fff;
+}
+
+.mfp-content .popap_page{
+  text-align: center;
+  margin-top: 10px;
+  width: 800px;
+  margin: auto;
+  height: 600px;
+  
+}
+.mfp-content .popap_page .mfp-close-btn-in .mfp-close {
+    color: #fff;
+}
+
+.mfp-content .popap_page h2{
+  text-align: center;
+}
+.mfp-content .popap_page ul li{
+  list-style-type:disc;
+}
+
+.mfp-content .popap_page .popap_img{
+  width: 100%;
+  position: relative;
+  height: 250px;
+  overflow: hidden;
+}
+
+.mfp-content .popap_page .popap_img img{
+width: 100%;
+  margin-top: -81px;
+}
+.mfp-content p{
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+
+
+
+
+
+/*всплывающая страница с подробностями end*/
 
 @media only screen and (max-width:1200px){
 
@@ -1218,7 +1419,10 @@ text-align: left;
 }
 @media only screen and (max-width:480px){
 
+.mfp-content form {
 
+    padding: 20px 10px;
+    }
 
 }
 @media only screen and (max-width:320px){
