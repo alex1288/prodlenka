@@ -57,14 +57,17 @@ display: inline-block;
 .top_line ul li a{
 color: #666;
 }
-
+.top_line ul li a i{
+    margin-right: 13px;
+    font-size: 25px;
+}
 
 .top_logo{
 position: relative;
 }
 
 .top_logo img{
-width: 136px;
+width: 160px;
     margin: auto;
     display: block;
     position: absolute;
@@ -1168,7 +1171,8 @@ content: "\f10e";
 /*==========Карусель END ==========*/
 
 .bottom{
-	padding: 25px 0px
+	padding: 25px 0px;
+  text-align: left;
 }
 
 .bottom_item img{
@@ -1186,13 +1190,19 @@ content: "\f10e";
 }
 .bottom_menu p{
 margin-bottom: 0;
+text-align: left;
 }
 .bottom_menu ul{
 
 }
 .bottom_menu ul li{
-var
+
 }
+
+.bottom_contact i{
+  font-size: 30px
+}
+
 
 @media only screen and (max-width:1200px){
 
