@@ -86,7 +86,7 @@ width: 160px;
 }
 
 .white_bg_r {
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(255,255,255,1);
 	height: 100%;
     max-height: 900px;
    position: absolute;
@@ -94,7 +94,7 @@ width: 160px;
      right: 0;
 }
 .white_bg_l {
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(255,255,255,1);
 	height: 100%;
     max-height: 900px;
    position: absolute;
@@ -190,7 +190,8 @@ color: #fff;
 
 .second_text h2{
 font-size: 40px;
-color: #666
+color: #666;
+padding-bottom: 40px;
 }
 
 .second_text p{
@@ -286,12 +287,11 @@ height: 550px;
      
 }
 .third_box_bg {
-	background-image: url(img/dost2.jpg); 
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	    background-position: 50%;
-
+    background-image: url(img/dost2.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 56%;
+    background-position: 107%;
 	  }
 
 .third_text h2{
@@ -375,6 +375,16 @@ height: 550px;
 
 	  }
 
+    .prepare_box_bg {
+    background-image: url(img/prepare.jpg);
+
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 0%;
+    height: 100%;
+
+    }
+
 .food_text h2{
 font-size: 40px;
 text-align: left;
@@ -432,13 +442,22 @@ height: 550px;
       background-position: 50%;
 }
 .art_box_bg {
-	background-image: url(img/tvor2.jpg); 
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	    background-position: 50%;
+background-image: url(img/tvor.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: 100%;
 
 	  }
+
+.bd_box_bg {
+    background-image: url(img/bd3.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 62%;
+    background-position: 116%;
+
+    }
 
 .art_text {
  // margin-top: 10%;
@@ -447,6 +466,7 @@ height: 550px;
   display: inline-block;
   text-align: center;
      padding-top: 50px;
+         padding-right: 15px;
      
 }
 
@@ -494,9 +514,10 @@ color: #666;
     position: relative;
     display: block;
     text-align: left;
-    right: 0;
+    right: 15px;
     margin-top: 0px;
     position: absolute;
+
 }
 
 /**/
@@ -523,11 +544,11 @@ height: 550px;
      
 }
 .fun_box_bg {
-	background-image: url(img/fun2.jpg); 
+	background-image: url(img/pool.jpg); 
 	height: 100%;
 	background-repeat: no-repeat;
-	background-size: cover;
-	    background-position: 50%;
+	background-size: 50%;
+    background-position: 0 50%;
 
 	  }
 
@@ -579,6 +600,14 @@ color: #666;
 }
 
 
+.travel_bg {
+    background-image: url(img/fun2.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 130%;
+
+}
 
 													/* отзывы*/
 .teacher{
